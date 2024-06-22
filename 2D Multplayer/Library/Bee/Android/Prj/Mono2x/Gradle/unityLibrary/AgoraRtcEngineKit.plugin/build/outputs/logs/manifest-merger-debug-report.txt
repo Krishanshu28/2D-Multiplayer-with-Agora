@@ -1,0 +1,61 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml:2:1-15:12
+INJECTED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml:2:1-15:12
+INJECTED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml:2:1-15:12
+	package
+		ADDED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml:3:11-48
+		INJECTED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml
+		INJECTED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml:5:11-36
+	xmlns:android
+		ADDED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml:4:11-34
+application
+ADDED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml:6:5-7:51
+	android:requestLegacyExternalStorage
+		ADDED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml:7:5-48
+uses-permission#android.permission.INTERNET
+ADDED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml:9:5-71
+	android:name
+		ADDED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml:9:22-68
+uses-permission#android.permission.CAMERA
+ADDED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml:10:5-65
+	android:name
+		ADDED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml:10:22-62
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml:11:22-65
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml:12:22-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml:14:22-73
+uses-sdk
+INJECTED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml
+INJECTED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml
+INJECTED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml
+INJECTED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml
+		ADDED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml
+		INJECTED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml
+		ADDED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml
+		INJECTED from C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\AgoraRtcEngineKit.plugin\AndroidManifest.xml

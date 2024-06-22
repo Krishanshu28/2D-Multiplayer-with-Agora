@@ -1,0 +1,155 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="22"
+7-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="32" />
+8-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.INTERNET" />
+10-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-65
+10-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:20-62
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:3-77
+11-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:20-74
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:3-63
+12-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:20-60
+13
+14    <uses-feature
+14-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:3-90
+15        android:name="android.hardware.vulkan.version"
+15-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-63
+16        android:required="true" />
+16-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:64-87
+17    <uses-feature
+17-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:3-83
+18        android:name="android.hardware.camera"
+18-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:17-55
+19        android:required="false" />
+19-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:56-80
+20    <uses-feature
+20-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:3-93
+21        android:name="android.hardware.camera.autofocus"
+21-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:17-65
+22        android:required="false" />
+22-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:66-90
+23    <uses-feature
+23-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:3-89
+24        android:name="android.hardware.camera.front"
+24-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:17-61
+25        android:required="false" />
+25-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:62-86
+26    <uses-feature
+26-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:3-97
+27        android:name="android.hardware.sensor.accelerometer"
+27-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:17-69
+28        android:required="false" />
+28-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:70-94
+29    <uses-feature
+29-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:3-88
+30        android:name="android.hardware.touchscreen"
+30-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:17-60
+31        android:required="false" />
+31-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:61-85
+32    <uses-feature
+32-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:3-99
+33        android:name="android.hardware.touchscreen.multitouch"
+33-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:17-71
+34        android:required="false" />
+34-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:72-96
+35    <uses-feature
+35-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:3-108
+36        android:name="android.hardware.touchscreen.multitouch.distinct"
+36-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:17-80
+37        android:required="false" />
+37-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:81-105
+38
+39    <application android:extractNativeLibs="true" >
+39-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:3-29:17
+39-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-48
+40        <meta-data
+40-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-69
+41            android:name="unity.splash-mode"
+41-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-48
+42            android:value="0" />
+42-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:49-66
+43        <meta-data
+43-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-74
+44            android:name="unity.splash-enable"
+44-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-50
+45            android:value="True" />
+45-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:51-71
+46        <meta-data
+46-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-78
+47            android:name="unity.launch-fullscreen"
+47-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-54
+48            android:value="True" />
+48-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:55-75
+49        <meta-data
+49-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-84
+50            android:name="unity.allow-resizable-window"
+50-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-59
+51            android:value="False" />
+51-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:60-81
+52        <meta-data
+52-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-81
+53            android:name="notch.config"
+53-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:16-43
+54            android:value="portrait|landscape" />
+54-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:44-78
+55        <meta-data
+55-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:5-84
+56            android:name="unity.auto-report-fully-drawn"
+56-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:16-60
+57            android:value="true" />
+57-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:61-81
+58
+59        <activity
+59-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:5-28:16
+60            android:name="com.unity3d.player.UnityPlayerActivity"
+60-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:15-68
+61            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+61-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:180-361
+62            android:exported="true"
+62-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:433-456
+63            android:hardwareAccelerated="false"
+63-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:397-432
+64            android:launchMode="singleTask"
+64-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:148-179
+65            android:resizeableActivity="false"
+65-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:362-396
+66            android:screenOrientation="fullUser"
+66-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:111-147
+67            android:theme="@style/UnityThemeSelector" >
+67-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:69-110
+68            <intent-filter>
+68-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:7-25:23
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:9-69
+69-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:19-66
+70
+71                <action android:name="android.intent.action.MAIN" />
+71-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:9-61
+71-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:17-58
+72            </intent-filter>
+73
+74            <meta-data
+74-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:7-82
+75                android:name="unityplayer.UnityActivity"
+75-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:18-58
+76                android:value="true" />
+76-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:59-79
+77            <meta-data
+77-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:7-70
+78                android:name="notch_support"
+78-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:18-46
+79                android:value="true" />
+79-->C:\Unity Projects\2D-Multiplayer-with-Agora\2D Multplayer\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:47-67
+80        </activity>
+81    </application>
+82
+83</manifest>
